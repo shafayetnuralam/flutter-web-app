@@ -1,5 +1,3 @@
-io/flutter/plugins/webviewflutter/BuildConfig.java
- io.flutter.plugins.webviewflutter.BuildConfig
 io/flutter/plugins/webviewflutter/FlutterWebView.java
  io.flutter.plugins.webviewflutter.FlutterWebView
  io.flutter.plugins.webviewflutter.FlutterWebView$1
@@ -28,3 +26,5 @@ io/flutter/plugins/webviewflutter/FlutterWebViewClient.java
  io.flutter.plugins.webviewflutter.FlutterWebViewClient$1
  io.flutter.plugins.webviewflutter.FlutterWebViewClient$2
  io.flutter.plugins.webviewflutter.FlutterWebViewClient$OnNavigationRequestResult
+io/flutter/plugins/webviewflutter/BuildConfig.java
+ io.flutter.plugins.webviewflutter.BuildConfig
