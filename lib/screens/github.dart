@@ -9,7 +9,7 @@ class GithubScreen extends StatelessWidget {
         elevation: 0.0,
         backgroundColor: Colors.white,
         title: Text(
-          "Github",
+          "Demo MWS",
           style: TextStyle(color: Colors.black),
         ),
       ),

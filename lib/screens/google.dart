@@ -9,7 +9,7 @@ class googleScreen extends StatelessWidget {
         elevation: 0.0,
         backgroundColor: Colors.white,
         title: Text(
-          "google",
+          "Website",
           style: TextStyle(color: Colors.black),
         ),
       ),

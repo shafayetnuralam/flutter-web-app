@@ -38,7 +38,7 @@ class _MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
           labelStyle: TextStyle(fontSize: 9, fontWeight: FontWeight.bold),
           tabs: <Tab>[
             Tab(
-              icon: Icon(FontAwesomeIcons.android),
+              icon: Icon(FontAwesomeIcons.chrome),
               text: "Website",
             ),
             Tab(
