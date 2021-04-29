@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:webbrowser/screens/amazon.dart';
 import 'package:webbrowser/screens/github.dart';
-import 'package:webbrowser/screens/google.dart';
+import 'package:webbrowser/screens/website.dart';
 import 'package:webbrowser/screens/youtube.dart';
 
 class MyTabs extends StatefulWidget {
@@ -38,20 +38,20 @@ class _MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
           labelStyle: TextStyle(fontSize: 9, fontWeight: FontWeight.bold),
           tabs: <Tab>[
             Tab(
-              icon: Icon(FontAwesomeIcons.google),
-              text: "Google",
+              icon: Icon(FontAwesomeIcons.android),
+              text: "Website",
             ),
             Tab(
-              icon: Icon(FontAwesomeIcons.amazon),
-              text: "Amazon",
+              icon: Icon(FontAwesomeIcons.cpanel),
+              text: "Cpanel",
             ),
             Tab(
-              icon: Icon(FontAwesomeIcons.youtube),
-              text: "YouTube",
+              icon: Icon(FontAwesomeIcons.eye),
+              text: "Demo I3",
             ),
             Tab(
-              icon: Icon(FontAwesomeIcons.github),
-              text: "Github",
+              icon: Icon(FontAwesomeIcons.eye),
+              text: "Demo MWS",
             ),
           ],
         ),
@@ -59,7 +59,7 @@ class _MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
       body: TabBarView(
         controller: tabController,
         children: <Widget>[
-          GoogleScreen(),
+          websiteScreen(),
           AmazonScreen(),
           YouTubeScreen(),
           GithubScreen(),

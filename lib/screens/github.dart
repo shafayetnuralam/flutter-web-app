@@ -15,7 +15,7 @@ class GithubScreen extends StatelessWidget {
       ),
       body: SafeArea(
         child: WebView(
-          initialUrl: "https://github.com",
+          initialUrl: "https://demo.mwsbd.com/",
           javascriptMode: JavascriptMode.unrestricted,
         ),
       ),

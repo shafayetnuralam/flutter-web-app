@@ -15,7 +15,7 @@ class YouTubeScreen extends StatelessWidget {
       ),
       body: SafeArea(
         child: WebView(
-          initialUrl: "https://m.youtube.com",
+          initialUrl: "https://www.i3intelligence.com/demo",
           javascriptMode: JavascriptMode.unrestricted,
         ),
       ),
